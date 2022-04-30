@@ -8,29 +8,29 @@
             "re_roomtype_global_v2": {
                 "predictions": [
                     {
-                        "label": "details",
-                        "confidence": 0.5140388607978821
-                    },
-                    {
-                        "label": "exercise_room",
-                        "confidence": 0.38423219323158264
-                    },
-                    {
-                        "label": "game_room",
-                        "confidence": 0.019481422379612923
-                    },
-                    {
                         "label": "documents",
-                        "confidence": 0.008064397610723972
+                        "confidence": 0.5407392978668213
                     },
                     {
-                        "label": "reception",
-                        "confidence": 0.007768077775835991
+                        "label": "patio_terrace",
+                        "confidence": 0.05090516805648804
+                    },
+                    {
+                        "label": "details",
+                        "confidence": 0.042291734367609024
+                    },
+                    {
+                        "label": "nature",
+                        "confidence": 0.03093838505446911
+                    },
+                    {
+                        "label": "map_location",
+                        "confidence": 0.02506604976952076
                     }
                 ],
                 "top_prediction": {
-                    "label": "details",
-                    "confidence": 0.5140388607978821
+                    "label": "documents",
+                    "confidence": 0.5407392978668213
                 }
             },
             "re_condition": {
@@ -41,7 +41,7 @@
             }
         }
     },
-    "time": "2022-04-30T20:48:53.261973",
-    "correlation_id": "4fde579c-7b26-4da2-bd02-34bcf645e524",
+    "time": "2022-04-30T20:55:38.726408",
+    "correlation_id": "ef17c7be-89ae-4b03-a3b7-e0ab1ba1f896",
     "version": "2"
 }

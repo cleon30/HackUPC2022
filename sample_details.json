@@ -1,9 +1,5 @@
 {
-    "room": "details",
+    "room": "documents",
     "score": null,
-    "objects": [
-        "bottle",
-        "banana",
-        "diningtable"
-    ]
+    "objects": []
 }
