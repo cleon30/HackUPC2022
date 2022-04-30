@@ -1,17 +1,25 @@
+import base64
 import requests
 import json
-def prediction(s):
-    url = 'https://api-us.restb.ai/vision/v2/multipredict'
+def prediction(path):
+    client_key="256fa7c3b7da99373032e42d0d9398e216e6b10021fbe0e8af6fe2bdedd992fa"
+    url = f"https://api-eu.restb.ai/vision/v2/multipredict?client_key={client_key}"
+    with open(path, "rb") as image_file:
+        image_base64 = base64.urlsafe_b64encode(image_file.read())
     payload = {
         # Add your client key
-        'client_key': '18d2c3def97f08eee4261f6dbe69c2081a4535166e48f116d38c17303f5b3a39',
+        'image_base64': image_base64,
         'model_id': 're_roomtype_global_v2,re_features_v3,re_appliances_v2,re_condition',
-        # Add the image URL you want to classify
-        'image_url': s
     }
+    files=[
+    ]
 
+    headers = {}
+
+    response = requests.request("POST", url, headers=headers, data=payload, files=files)
+
+    
     # Make the classify request
-    response = requests.get(url, params=payload)
 
     # The response is formatted in JSON
     json_response = response.json()

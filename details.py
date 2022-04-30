@@ -9,7 +9,7 @@ def details(s, path):
         'client_key': key,
         'model_id': 're_kitchen_finishes',
         # Add the image URL you want to classify
-        'image_base64': path
+        'image_url': path
         }
     if s=='bathroom':
         payload = {
@@ -17,7 +17,7 @@ def details(s, path):
         'client_key': key,
         'model_id': 're_bathroom_features',
         # Add the image URL you want to classify
-        'image_base64': path
+        'image_url': path
         }
 
     # Make the classify request

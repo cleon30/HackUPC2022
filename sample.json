@@ -3,49 +3,45 @@
     "response": {
         "solutions": {
             "re_features_v3": {
-                "detections": [
-                    {
-                        "label": "natural_light"
-                    }
-                ]
+                "detections": []
             },
             "re_roomtype_global_v2": {
                 "predictions": [
                     {
                         "label": "bathroom",
-                        "confidence": 0.7773050665855408
+                        "confidence": 0.9397563338279724
                     },
                     {
                         "label": "reception",
-                        "confidence": 0.06376654654741287
+                        "confidence": 0.005950619466602802
                     },
                     {
-                        "label": "lobby",
-                        "confidence": 0.04146789759397507
+                        "label": "kitchen",
+                        "confidence": 0.00411487789824605
                     },
                     {
-                        "label": "basement",
-                        "confidence": 0.005630078725516796
+                        "label": "misc_room",
+                        "confidence": 0.0017544761067256331
                     },
                     {
-                        "label": "utility_room",
-                        "confidence": 0.0037898323498666286
+                        "label": "closet",
+                        "confidence": 0.0017231563106179237
                     }
                 ],
                 "top_prediction": {
                     "label": "bathroom",
-                    "confidence": 0.7773050665855408
+                    "confidence": 0.9397563338279724
                 }
             },
             "re_condition": {
-                "score": 5.9
+                "score": 4.7
             },
             "re_appliances_v2": {
                 "detections": []
             }
         }
     },
-    "time": "2022-04-30T05:46:27.747791",
-    "correlation_id": "bc99bf35-c02e-4fe3-a6fc-a5875642e800",
+    "time": "2022-04-30T11:21:38.604342",
+    "correlation_id": "91d87497-2bc6-4ec9-818c-8ba2905205ab",
     "version": "2"
 }

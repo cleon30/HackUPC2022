@@ -1,6 +1,23 @@
 {
-    "detail": "Missing query parameter 'image_url'",
-    "status": 400,
-    "title": "Bad Request",
-    "type": "about:blank"
+    "error": "false",
+    "response": {
+        "solutions": {
+            "re_bathroom_features": {
+                "detections": [
+                    {
+                        "label": "sink"
+                    },
+                    {
+                        "label": "mirror"
+                    },
+                    {
+                        "label": "vanity"
+                    }
+                ]
+            }
+        }
+    },
+    "time": "2022-04-30T06:59:37.415607",
+    "correlation_id": "aef52dbe-5ba1-45c7-bb00-1996a1cce758",
+    "version": "2"
 }

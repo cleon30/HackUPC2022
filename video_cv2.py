@@ -1,3 +1,6 @@
+import pydrive
+from pydrive.auth import GoogleAuth
+from pydrive.drive import GoogleDrive
 import cv2
 import numpy as np
 i = 0
