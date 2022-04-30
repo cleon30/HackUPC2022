@@ -2,7 +2,7 @@ import base64
 import requests
 import json
 def prediction(path):
-    client_key="256fa7c3b7da99373032e42d0d9398e216e6b10021fbe0e8af6fe2bdedd992fa"
+    client_key="18d2c3def97f08eee4261f6dbe69c2081a4535166e48f116d38c17303f5b3a39"
     url = f"https://api-eu.restb.ai/vision/v2/multipredict?client_key={client_key}"
     with open(path, "rb") as image_file:
         image_base64 = base64.urlsafe_b64encode(image_file.read())

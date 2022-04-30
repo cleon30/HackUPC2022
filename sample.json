@@ -8,29 +8,29 @@
             "re_roomtype_global_v2": {
                 "predictions": [
                     {
-                        "label": "documents",
-                        "confidence": 0.5090011954307556
+                        "label": "corridor",
+                        "confidence": 0.2115747332572937
                     },
                     {
-                        "label": "patio_terrace",
-                        "confidence": 0.05358720198273659
+                        "label": "documents",
+                        "confidence": 0.2014475166797638
                     },
                     {
                         "label": "details",
-                        "confidence": 0.04397457093000412
-                    },
-                    {
-                        "label": "nature",
-                        "confidence": 0.03704136237502098
+                        "confidence": 0.06340571492910385
                     },
                     {
                         "label": "map_location",
-                        "confidence": 0.028057629242539406
+                        "confidence": 0.05329694598913193
+                    },
+                    {
+                        "label": "bedroom",
+                        "confidence": 0.037911973893642426
                     }
                 ],
                 "top_prediction": {
-                    "label": "documents",
-                    "confidence": 0.5090011954307556
+                    "label": "corridor",
+                    "confidence": 0.2115747332572937
                 }
             },
             "re_condition": {
@@ -41,7 +41,7 @@
             }
         }
     },
-    "time": "2022-04-30T13:22:54.483229",
-    "correlation_id": "95d5c750-8966-4558-a2ba-43bd9ffc6370",
+    "time": "2022-04-30T20:02:05.085083",
+    "correlation_id": "30f31439-cd4c-4ca1-b8c6-47b553362e80",
     "version": "2"
 }
