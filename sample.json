@@ -5,7 +5,7 @@
             "re_features_v3": {
                 "detections": [
                     {
-                        "label": "natural_light"
+                        "label": "hardwood_floor"
                     }
                 ]
             },
@@ -13,39 +13,39 @@
                 "predictions": [
                     {
                         "label": "bedroom",
-                        "confidence": 0.9621628522872925
+                        "confidence": 0.9516319632530212
                     },
                     {
-                        "label": "lobby",
-                        "confidence": 0.0011376878246665
-                    },
-                    {
-                        "label": "bathroom",
-                        "confidence": 0.0009629653650335968
-                    },
-                    {
-                        "label": "reception",
-                        "confidence": 0.0008812767337076366
+                        "label": "dining_area",
+                        "confidence": 0.0015093752881512046
                     },
                     {
                         "label": "living_room",
-                        "confidence": 0.000831562269013375
+                        "confidence": 0.0013484638184309006
+                    },
+                    {
+                        "label": "walk_in_closet",
+                        "confidence": 0.0010808161459863186
+                    },
+                    {
+                        "label": "sitting_room",
+                        "confidence": 0.0009877404663711786
                     }
                 ],
                 "top_prediction": {
                     "label": "bedroom",
-                    "confidence": 0.9621628522872925
+                    "confidence": 0.9516319632530212
                 }
             },
             "re_condition": {
-                "score": 5.1
+                "score": 4.0
             },
             "re_appliances_v2": {
                 "detections": []
             }
         }
     },
-    "time": "2022-04-30T03:16:46.340450",
-    "correlation_id": "4b923eef-ec5b-4c03-86c8-580a1cf530d8",
+    "time": "2022-04-30T03:29:35.100709",
+    "correlation_id": "03d8b4fc-29bd-4cf2-ac26-f91283c3c343",
     "version": "2"
 }

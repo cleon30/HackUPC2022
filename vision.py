@@ -15,11 +15,13 @@ def prediction(s):
 
     # The response is formatted in JSON
     json_response = response.json()
-    print(json_response['response']['solutions']['re_roomtype_global_v2']['top_prediction']['label'])
-    print(json_response['response']['solutions']['re_condition']['score'])
-
-
+    house_part = json_response['response']['solutions']['re_roomtype_global_v2']['top_prediction']['label']
+    mark = json_response['response']['solutions']['re_condition']['score']
     json_object = json.dumps(json_response, indent = 4)
     with open("sample.json", "w") as outfile:
         outfile.write(json_object)
+    return (house_part, mark) 
+
+
+    
     #print(json_object[1])
