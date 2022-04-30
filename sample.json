@@ -3,45 +3,49 @@
     "response": {
         "solutions": {
             "re_features_v3": {
-                "detections": []
+                "detections": [
+                    {
+                        "label": "natural_light"
+                    }
+                ]
             },
             "re_roomtype_global_v2": {
                 "predictions": [
                     {
+                        "label": "bedroom",
+                        "confidence": 0.9621628522872925
+                    },
+                    {
+                        "label": "lobby",
+                        "confidence": 0.0011376878246665
+                    },
+                    {
                         "label": "bathroom",
-                        "confidence": 0.9421641826629639
+                        "confidence": 0.0009629653650335968
                     },
                     {
-                        "label": "kitchen",
-                        "confidence": 0.0011722358176484704
+                        "label": "reception",
+                        "confidence": 0.0008812767337076366
                     },
                     {
-                        "label": "storage_room",
-                        "confidence": 0.0011713828425854445
-                    },
-                    {
-                        "label": "laundry_room",
-                        "confidence": 0.0011229183292016387
-                    },
-                    {
-                        "label": "bonus_room",
-                        "confidence": 0.001098951674066484
+                        "label": "living_room",
+                        "confidence": 0.000831562269013375
                     }
                 ],
                 "top_prediction": {
-                    "label": "bathroom",
-                    "confidence": 0.9421641826629639
+                    "label": "bedroom",
+                    "confidence": 0.9621628522872925
                 }
             },
             "re_condition": {
-                "score": 1.6
+                "score": 5.1
             },
             "re_appliances_v2": {
                 "detections": []
             }
         }
     },
-    "time": "2022-04-30T00:14:29.540579",
-    "correlation_id": "a98e4ef9-914a-4d2a-ac78-44c6a746b416",
+    "time": "2022-04-30T03:16:46.340450",
+    "correlation_id": "4b923eef-ec5b-4c03-86c8-580a1cf530d8",
     "version": "2"
 }
