@@ -8,29 +8,29 @@
             "re_roomtype_global_v2": {
                 "predictions": [
                     {
-                        "label": "corridor",
-                        "confidence": 0.2115747332572937
+                        "label": "details",
+                        "confidence": 0.5140388607978821
+                    },
+                    {
+                        "label": "exercise_room",
+                        "confidence": 0.38423219323158264
+                    },
+                    {
+                        "label": "game_room",
+                        "confidence": 0.019481422379612923
                     },
                     {
                         "label": "documents",
-                        "confidence": 0.2014475166797638
+                        "confidence": 0.008064397610723972
                     },
                     {
-                        "label": "details",
-                        "confidence": 0.06340571492910385
-                    },
-                    {
-                        "label": "map_location",
-                        "confidence": 0.05329694598913193
-                    },
-                    {
-                        "label": "bedroom",
-                        "confidence": 0.037911973893642426
+                        "label": "reception",
+                        "confidence": 0.007768077775835991
                     }
                 ],
                 "top_prediction": {
-                    "label": "corridor",
-                    "confidence": 0.2115747332572937
+                    "label": "details",
+                    "confidence": 0.5140388607978821
                 }
             },
             "re_condition": {
@@ -41,7 +41,7 @@
             }
         }
     },
-    "time": "2022-04-30T20:02:05.085083",
-    "correlation_id": "30f31439-cd4c-4ca1-b8c6-47b553362e80",
+    "time": "2022-04-30T20:48:53.261973",
+    "correlation_id": "4fde579c-7b26-4da2-bd02-34bcf645e524",
     "version": "2"
 }
