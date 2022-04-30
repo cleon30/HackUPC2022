@@ -8,40 +8,40 @@
             "re_roomtype_global_v2": {
                 "predictions": [
                     {
-                        "label": "bathroom",
-                        "confidence": 0.9397563338279724
+                        "label": "documents",
+                        "confidence": 0.5090011954307556
                     },
                     {
-                        "label": "reception",
-                        "confidence": 0.005950619466602802
+                        "label": "patio_terrace",
+                        "confidence": 0.05358720198273659
                     },
                     {
-                        "label": "kitchen",
-                        "confidence": 0.00411487789824605
+                        "label": "details",
+                        "confidence": 0.04397457093000412
                     },
                     {
-                        "label": "misc_room",
-                        "confidence": 0.0017544761067256331
+                        "label": "nature",
+                        "confidence": 0.03704136237502098
                     },
                     {
-                        "label": "closet",
-                        "confidence": 0.0017231563106179237
+                        "label": "map_location",
+                        "confidence": 0.028057629242539406
                     }
                 ],
                 "top_prediction": {
-                    "label": "bathroom",
-                    "confidence": 0.9397563338279724
+                    "label": "documents",
+                    "confidence": 0.5090011954307556
                 }
             },
             "re_condition": {
-                "score": 4.7
+                "score": null
             },
             "re_appliances_v2": {
                 "detections": []
             }
         }
     },
-    "time": "2022-04-30T11:21:38.604342",
-    "correlation_id": "91d87497-2bc6-4ec9-818c-8ba2905205ab",
+    "time": "2022-04-30T13:22:54.483229",
+    "correlation_id": "95d5c750-8966-4558-a2ba-43bd9ffc6370",
     "version": "2"
 }
