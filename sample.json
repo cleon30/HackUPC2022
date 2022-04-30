@@ -1,0 +1,47 @@
+{
+    "error": "false",
+    "response": {
+        "solutions": {
+            "re_features_v3": {
+                "detections": []
+            },
+            "re_roomtype_global_v2": {
+                "predictions": [
+                    {
+                        "label": "bathroom",
+                        "confidence": 0.9421641826629639
+                    },
+                    {
+                        "label": "kitchen",
+                        "confidence": 0.0011722358176484704
+                    },
+                    {
+                        "label": "storage_room",
+                        "confidence": 0.0011713828425854445
+                    },
+                    {
+                        "label": "laundry_room",
+                        "confidence": 0.0011229183292016387
+                    },
+                    {
+                        "label": "bonus_room",
+                        "confidence": 0.001098951674066484
+                    }
+                ],
+                "top_prediction": {
+                    "label": "bathroom",
+                    "confidence": 0.9421641826629639
+                }
+            },
+            "re_condition": {
+                "score": 1.6
+            },
+            "re_appliances_v2": {
+                "detections": []
+            }
+        }
+    },
+    "time": "2022-04-30T00:14:29.540579",
+    "correlation_id": "a98e4ef9-914a-4d2a-ac78-44c6a746b416",
+    "version": "2"
+}
