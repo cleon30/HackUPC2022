@@ -1,0 +1,6 @@
+{
+    "detail": "Missing query parameter 'image_url'",
+    "status": 400,
+    "title": "Bad Request",
+    "type": "about:blank"
+}

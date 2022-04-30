@@ -5,47 +5,47 @@
             "re_features_v3": {
                 "detections": [
                     {
-                        "label": "hardwood_floor"
+                        "label": "natural_light"
                     }
                 ]
             },
             "re_roomtype_global_v2": {
                 "predictions": [
                     {
-                        "label": "bedroom",
-                        "confidence": 0.9516319632530212
+                        "label": "bathroom",
+                        "confidence": 0.7773050665855408
                     },
                     {
-                        "label": "dining_area",
-                        "confidence": 0.0015093752881512046
+                        "label": "reception",
+                        "confidence": 0.06376654654741287
                     },
                     {
-                        "label": "living_room",
-                        "confidence": 0.0013484638184309006
+                        "label": "lobby",
+                        "confidence": 0.04146789759397507
                     },
                     {
-                        "label": "walk_in_closet",
-                        "confidence": 0.0010808161459863186
+                        "label": "basement",
+                        "confidence": 0.005630078725516796
                     },
                     {
-                        "label": "sitting_room",
-                        "confidence": 0.0009877404663711786
+                        "label": "utility_room",
+                        "confidence": 0.0037898323498666286
                     }
                 ],
                 "top_prediction": {
-                    "label": "bedroom",
-                    "confidence": 0.9516319632530212
+                    "label": "bathroom",
+                    "confidence": 0.7773050665855408
                 }
             },
             "re_condition": {
-                "score": 4.0
+                "score": 5.9
             },
             "re_appliances_v2": {
                 "detections": []
             }
         }
     },
-    "time": "2022-04-30T03:29:35.100709",
-    "correlation_id": "03d8b4fc-29bd-4cf2-ac26-f91283c3c343",
+    "time": "2022-04-30T05:46:27.747791",
+    "correlation_id": "bc99bf35-c02e-4fe3-a6fc-a5875642e800",
     "version": "2"
 }

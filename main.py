@@ -1,4 +1,7 @@
 from vision import prediction
-path = 'https://www.ikea.com/images/a-gladstad-bed-in-a-grey-bedroom-covered-with-lappnycklar-fl-3f6f45fbfe31064706a0c539cd0af1ce.jpg?f=s'
+from details import details
+path = 'https://st.depositphotos.com/1007549/1228/i/950/depositphotos_12289051-stock-photo-white-bathroom.jpg'
 Part_of_home, score = prediction(path)
 print(Part_of_home, score)
+if Part_of_home =='bathroom':
+    details(Part_of_home, path)
