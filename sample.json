@@ -8,40 +8,44 @@
             "re_roomtype_global_v2": {
                 "predictions": [
                     {
-                        "label": "documents",
-                        "confidence": 0.5407392978668213
+                        "label": "bathroom",
+                        "confidence": 0.8970289826393127
                     },
                     {
-                        "label": "patio_terrace",
-                        "confidence": 0.05090516805648804
+                        "label": "reception",
+                        "confidence": 0.007158671505749226
                     },
                     {
-                        "label": "details",
-                        "confidence": 0.042291734367609024
+                        "label": "balcony",
+                        "confidence": 0.005832852330058813
                     },
                     {
-                        "label": "nature",
-                        "confidence": 0.03093838505446911
+                        "label": "utility_room",
+                        "confidence": 0.003691081190481782
                     },
                     {
-                        "label": "map_location",
-                        "confidence": 0.02506604976952076
+                        "label": "lobby",
+                        "confidence": 0.002996938768774271
                     }
                 ],
                 "top_prediction": {
-                    "label": "documents",
-                    "confidence": 0.5407392978668213
+                    "label": "bathroom",
+                    "confidence": 0.8970289826393127
                 }
             },
             "re_condition": {
-                "score": null
+                "score": 4.4
             },
             "re_appliances_v2": {
-                "detections": []
+                "detections": [
+                    {
+                        "label": "radiator"
+                    }
+                ]
             }
         }
     },
-    "time": "2022-04-30T20:55:38.726408",
-    "correlation_id": "ef17c7be-89ae-4b03-a3b7-e0ab1ba1f896",
+    "time": "2022-05-01T01:47:23.721327",
+    "correlation_id": "3c13b71a-510c-45ca-8f7e-97bcf6a5a069",
     "version": "2"
 }

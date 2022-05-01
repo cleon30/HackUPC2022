@@ -9,7 +9,6 @@ from detection import detection_object
 import json
 
 from vision import prediction
-i = 0
 cap = cv2.VideoCapture(0)
 
 while(True):
@@ -28,7 +27,6 @@ while(True):
      
     print(ret, object)
     file.close()
-    i += 1
     if cv2.waitKey(2000) & 0xFF == ord('q'):
         
         break

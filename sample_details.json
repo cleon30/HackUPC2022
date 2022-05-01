@@ -1,5 +1,10 @@
 {
-    "room": "documents",
-    "score": null,
-    "objects": []
+    "room": "bathroom",
+    "score": 4.4,
+    "objects": [
+        "toilet",
+        "toilet",
+        "vase",
+        "vase"
+    ]
 }
