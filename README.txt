@@ -1,1 +1,1 @@
-![alt text](https://github.com/cleon30/HackUPC2022/blob/main/WhatsApp Image 2022-05-01 at 5.35.07 AM.jpeg?raw=true)
+![alt text](https://github.com/cleon30/HackUPC2022/blob/main/WhatsApp_Image_2022-05-01_at_5.35.07_AM.jpeg?raw=true)
