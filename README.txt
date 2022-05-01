@@ -1,4 +1,4 @@
-![Logo]()
+![Logo](WhatsApp%20Image%202022-05-01%20at%205.35.07%20AM.jpeg)
 Implementation of Restb.ai image recognition and processing with our Alexa's skill. Intended to help blind people to better orienlife indexa
 te themselves, specially on houses, and overall to raise their life index.
 
