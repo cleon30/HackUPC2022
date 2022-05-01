@@ -1,6 +1,6 @@
 **EYEASSSISTANT**
 
-[image](https://lh3.google.com/u/0/d/16_c2__HWSrrJs4_R3VSNxqSb7R_FWY-R=w640-h400-k-iv1)
+[image](https://github.com/cleon30/HackUPC2022/blob/main/WhatsApp%20Image%202022-05-01%20at%205.35.07%20AM.jpeg)
 WHAT IT DOES?
 The program collects the data from the mobile phone of the person that is taking a video in real life. From there it obtain frames and the API can detect in those frames some characteristics as the room type or the objects that are in there. Using the Alexa app, the person can ask to know in which room is it, which is the condition of the room or which objects are there and receive and answer.
 
