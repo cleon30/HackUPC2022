@@ -1,0 +1,482 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "home orientation",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "RoomIntent",
+          "slots": [],
+          "samples": [
+            "in which room I am",
+            "Where are we",
+            "Where",
+            "Where am I"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "ConditionIntent",
+          "slots": [],
+          "samples": [
+            "room condition",
+            "how is the room"
+          ]
+        },
+        {
+          "name": "ObjectsBoolIntent",
+          "slots": [
+            {
+              "name": "objecttype",
+              "type": "OBJECTTYPE"
+            }
+          ],
+          "samples": [
+            "there are bananas",
+            "is there a {objecttype} in front of me"
+          ]
+        },
+        {
+          "name": "ObjectsThereIntent",
+          "slots": [],
+          "samples": [
+            "what I have in front of me",
+            "what I have around me",
+            "what objects are",
+            "which objects are in front of me",
+            "which objectes are around ",
+            "which objects are here",
+            "which objects are in the room",
+            "which objects are "
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "person"
+              }
+            },
+            {
+              "name": {
+                "value": "bicycle"
+              }
+            },
+            {
+              "name": {
+                "value": "car"
+              }
+            },
+            {
+              "name": {
+                "value": "motorbike"
+              }
+            },
+            {
+              "name": {
+                "value": "aeroplane"
+              }
+            },
+            {
+              "name": {
+                "value": "bus"
+              }
+            },
+            {
+              "name": {
+                "value": "train"
+              }
+            },
+            {
+              "name": {
+                "value": "truck"
+              }
+            },
+            {
+              "name": {
+                "value": "boat"
+              }
+            },
+            {
+              "name": {
+                "value": "traffic light"
+              }
+            },
+            {
+              "name": {
+                "value": "fire hydrant"
+              }
+            },
+            {
+              "name": {
+                "value": "stop sign"
+              }
+            },
+            {
+              "name": {
+                "value": "parking meter"
+              }
+            },
+            {
+              "name": {
+                "value": "bench"
+              }
+            },
+            {
+              "name": {
+                "value": "bird"
+              }
+            },
+            {
+              "name": {
+                "value": "cat"
+              }
+            },
+            {
+              "name": {
+                "value": "dog"
+              }
+            },
+            {
+              "name": {
+                "value": "horse"
+              }
+            },
+            {
+              "name": {
+                "value": "sheep"
+              }
+            },
+            {
+              "name": {
+                "value": "cow"
+              }
+            },
+            {
+              "name": {
+                "value": "elephant"
+              }
+            },
+            {
+              "name": {
+                "value": "bear"
+              }
+            },
+            {
+              "name": {
+                "value": "zebra"
+              }
+            },
+            {
+              "name": {
+                "value": "giraffe"
+              }
+            },
+            {
+              "name": {
+                "value": "backpack"
+              }
+            },
+            {
+              "name": {
+                "value": "umbrella"
+              }
+            },
+            {
+              "name": {
+                "value": "handbag"
+              }
+            },
+            {
+              "name": {
+                "value": "tie"
+              }
+            },
+            {
+              "name": {
+                "value": "suitcase"
+              }
+            },
+            {
+              "name": {
+                "value": "frisbee"
+              }
+            },
+            {
+              "name": {
+                "value": "skis"
+              }
+            },
+            {
+              "name": {
+                "value": "snowboard"
+              }
+            },
+            {
+              "name": {
+                "value": "sports ball"
+              }
+            },
+            {
+              "name": {
+                "value": "kite"
+              }
+            },
+            {
+              "name": {
+                "value": "baseball bat"
+              }
+            },
+            {
+              "name": {
+                "value": "baseball glove"
+              }
+            },
+            {
+              "name": {
+                "value": "skateboard"
+              }
+            },
+            {
+              "name": {
+                "value": "surfboard"
+              }
+            },
+            {
+              "name": {
+                "value": "tennis racket"
+              }
+            },
+            {
+              "name": {
+                "value": "bottle"
+              }
+            },
+            {
+              "name": {
+                "value": "wine glass"
+              }
+            },
+            {
+              "name": {
+                "value": "cup"
+              }
+            },
+            {
+              "name": {
+                "value": "fork"
+              }
+            },
+            {
+              "name": {
+                "value": "knife"
+              }
+            },
+            {
+              "name": {
+                "value": "spoon"
+              }
+            },
+            {
+              "name": {
+                "value": "bowl"
+              }
+            },
+            {
+              "name": {
+                "value": "banana"
+              }
+            },
+            {
+              "name": {
+                "value": "apple"
+              }
+            },
+            {
+              "name": {
+                "value": "sandwich"
+              }
+            },
+            {
+              "name": {
+                "value": "orange"
+              }
+            },
+            {
+              "name": {
+                "value": "broccoli"
+              }
+            },
+            {
+              "name": {
+                "value": "carrot"
+              }
+            },
+            {
+              "name": {
+                "value": "hot dog"
+              }
+            },
+            {
+              "name": {
+                "value": "pizza"
+              }
+            },
+            {
+              "name": {
+                "value": "donut"
+              }
+            },
+            {
+              "name": {
+                "value": "cake"
+              }
+            },
+            {
+              "name": {
+                "value": "chair"
+              }
+            },
+            {
+              "name": {
+                "value": "sofa"
+              }
+            },
+            {
+              "name": {
+                "value": "pottedplant"
+              }
+            },
+            {
+              "name": {
+                "value": "bed"
+              }
+            },
+            {
+              "name": {
+                "value": "diningtable"
+              }
+            },
+            {
+              "name": {
+                "value": "toilet"
+              }
+            },
+            {
+              "name": {
+                "value": "tvmonitor"
+              }
+            },
+            {
+              "name": {
+                "value": "laptop"
+              }
+            },
+            {
+              "name": {
+                "value": "mouse"
+              }
+            },
+            {
+              "name": {
+                "value": "remote"
+              }
+            },
+            {
+              "name": {
+                "value": "keyboard"
+              }
+            },
+            {
+              "name": {
+                "value": "cell phone"
+              }
+            },
+            {
+              "name": {
+                "value": "microwave"
+              }
+            },
+            {
+              "name": {
+                "value": "oven"
+              }
+            },
+            {
+              "name": {
+                "value": "toaster"
+              }
+            },
+            {
+              "name": {
+                "value": "sink"
+              }
+            },
+            {
+              "name": {
+                "value": "refrigerator"
+              }
+            },
+            {
+              "name": {
+                "value": "book"
+              }
+            },
+            {
+              "name": {
+                "value": "clock"
+              }
+            },
+            {
+              "name": {
+                "value": "vase"
+              }
+            },
+            {
+              "name": {
+                "value": "scissors"
+              }
+            },
+            {
+              "name": {
+                "value": "teddy bear"
+              }
+            },
+            {
+              "name": {
+                "value": "hair drier"
+              }
+            },
+            {
+              "name": {
+                "value": "toothbrush"
+              }
+            }
+          ],
+          "name": "OBJECTTYPE"
+        }
+      ]
+    }
+  },
+  "version": "17"
+}

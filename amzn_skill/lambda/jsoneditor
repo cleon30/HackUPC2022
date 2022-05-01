@@ -1,0 +1,38 @@
+"interactionModel": {
+    "languageModel": {
+        "invocationName": "home orientation",
+        "intents": [
+            {
+                "name": "AMAZON.CancelIntent",
+                "samples": []
+            },
+            {
+                "name": "AMAZON.HelpIntent",
+                "samples": []
+            },
+            {
+                "name": "AMAZON.StopIntent",
+                "samples": []
+            },
+            {
+                "name": "AMAZON.NavigateHomeIntent",
+                "samples": []
+            },
+            {
+                "name": "HomeIntent",
+                "slots": [],
+                "samples": [
+                    "Where are we",
+                    "Where",
+                    "Where am I"
+                ]
+            },
+            {
+                "name": "AMAZON.FallbackIntent",
+                "samples": []
+            }
+        ],
+        "types": []
+    }
+}
+}
